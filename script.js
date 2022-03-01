@@ -9,15 +9,16 @@ new Chart("Students", {
   data: {
     labels: xValues,
     datasets: [{
+     label: 'Student',
       backgroundColor: barColors,
       data: yValues
     }]
   },
   options: {
-    legend: {display: true},
+    legend: {display: false},
     title: {
       display: true,
-      text: "World Wine Production 2018",
+      text: "500 Students",
     }
   }
 });
@@ -32,6 +33,7 @@ new Chart("EarnedMonthly", {
   data: {
     labels: xValues,
     datasets: [{
+        label: 'Monthly Earning',
       backgroundColor: barColors,
       data: yValues
     }]
@@ -39,7 +41,7 @@ new Chart("EarnedMonthly", {
   options: {
     legend: {display: true},
     title: {
-      display: true,
+      display: false,
       text: "World Wine Production 2018"
     }
   }
@@ -56,14 +58,15 @@ new Chart("Student", {
   data: {
     labels: xValues,
     datasets: [{
+        label: 'Student',
       backgroundColor: barColors,
       data: yValues
     }]
   },
   options: {
-    legend: {display: true},
+    legend: {display: false},
     title: {
-      display: true,
+      display: false,
       text: "World Wine Production 2018"
     }
   }
@@ -77,6 +80,7 @@ new Chart("YearlySales", {
   data: {
     labels: xValues,
     datasets: [{
+        label: 'Yearly Sales',
       fill: false,
       lineTension: 0,
       backgroundColor: "white",
