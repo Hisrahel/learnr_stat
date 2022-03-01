@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.consect{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+body{
+    background: #E5E5E5;
+}
+.cardstat1{
+    padding: 10px;
+    height: 30vh;
+    border-radius: 15px;
+}
+.cardstat2{
+    padding: 10px;
+    height: 95vh;
+    border-radius: 15px;
+}
+.theadstat{
+    background: #808EB5;
+    text-align: center;
+}
+.tbody{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+ @media (min-width: 0px) and (max-width: 576px) {
+    .consect{
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .constat{
+        width: 100%;
+    }
+    .cardstat1{
+        height: 25vh;
+    }
+    .cardstat2{
+        height: 30vh;
+    }
+
+  }
+ @media (min-width: 576px) and (max-width: 767px) {
+    .consect{
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .constat{
+        width: 100%;
+    }
+    .cardstat1{
+        height: 35vh;
+    }
+    .cardstat2{
+        height: 40vh;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .consect{
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .constat{
+        width: 100%;
+    }
+    .cardstat1{
+        height: 15vh;
+    }
+    .cardstat2{
+        height: 50vh;
+    }
+
+  }
+   @media (min-width: 992px) and (max-width: 1199px) {
+    .consect{
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .cardstat1{
+        height: 15vh;
+    }
+    .cardstat2{
+        height: 55vh;
+    }
+  }
+ /* @media (min-width: 1200px) and (max-width: 1399px) {
+    .consect{
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .cardstat1{
+        height: 20vh !important;
+    }
+    .cardstat2{
+        height: 60vh !important;
+    }
+  } */
+   @media (min-width: 1400px) {
+    .consect{
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .cardstat1{
+        height: 25vh;
+    }
+    .cardstat2{
+        height: 75vh;
+    }
+  }
+   
