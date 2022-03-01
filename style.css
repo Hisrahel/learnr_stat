@@ -12,12 +12,12 @@ body{
 }
 .cardstat1{
     padding: 10px;
-    height: 30vh;
+    height: 35vh;
     border-radius: 15px;
 }
 .cardstat2{
     padding: 10px;
-    height: 95vh;
+    height: 105vh;
     border-radius: 15px;
 }
 .theadstat{
@@ -38,10 +38,10 @@ body{
         width: 100%;
     }
     .cardstat1{
-        height: 25vh;
+        height: 35vh;
     }
     .cardstat2{
-        height: 30vh;
+        height: 35vh;
     }
 
   }
@@ -54,10 +54,10 @@ body{
         width: 100%;
     }
     .cardstat1{
-        height: 35vh;
+        height: 40vh;
     }
     .cardstat2{
-        height: 40vh;
+        height: 45vh;
     }
   }
   @media (min-width: 768px) and (max-width: 991px) {
@@ -69,10 +69,10 @@ body{
         width: 100%;
     }
     .cardstat1{
-        height: 15vh;
+        height: 20vh;
     }
     .cardstat2{
-        height: 50vh;
+        height: 55vh;
     }
 
   }
@@ -82,10 +82,10 @@ body{
         margin-left: 150px;
     }
     .cardstat1{
-        height: 15vh;
+        height: 20vh;
     }
     .cardstat2{
-        height: 55vh;
+        height: 60vh;
     }
   }
  /* @media (min-width: 1200px) and (max-width: 1399px) {
@@ -106,10 +106,10 @@ body{
         margin-left: 150px;
     }
     .cardstat1{
-        height: 25vh;
+        height: 30vh;
     }
     .cardstat2{
-        height: 75vh;
+        height: 80vh;
     }
   }
    

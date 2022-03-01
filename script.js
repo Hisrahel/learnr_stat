@@ -14,10 +14,10 @@ new Chart("Students", {
     }]
   },
   options: {
-    legend: {display: false},
+    legend: {display: true},
     title: {
-      display: false,
-      text: "World Wine Production 2018"
+      display: true,
+      text: "World Wine Production 2018",
     }
   }
 });
@@ -37,9 +37,9 @@ new Chart("EarnedMonthly", {
     }]
   },
   options: {
-    legend: {display: false},
+    legend: {display: true},
     title: {
-      display: false,
+      display: true,
       text: "World Wine Production 2018"
     }
   }
@@ -61,9 +61,9 @@ new Chart("Student", {
     }]
   },
   options: {
-    legend: {display: false},
+    legend: {display: true},
     title: {
-      display: false,
+      display: true,
       text: "World Wine Production 2018"
     }
   }
